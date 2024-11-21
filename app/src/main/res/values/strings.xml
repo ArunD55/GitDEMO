@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Arun Diary</string>
+    <string name="button_desc">add button description</string>
+    <string name="title">Name</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="entrytitle">Please Enter Title</string>
+    <string name="entrydesc">Please Enter Description</string>
+</resources>

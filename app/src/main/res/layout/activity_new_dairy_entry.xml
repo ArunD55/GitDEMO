@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.arun.arundiary.pages.NewDiaryEntry">
+
+    <TextView
+        android:id="@+id/datefield"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_margin="12dp"
+        android:padding="2dp"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/titleentryfield"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/textfieldborder"
+        android:hint="@string/entrytitle"
+        android:padding="7dp"
+        android:layout_below="@id/datefield"
+        android:inputType="text"
+        android:autofillHints="name"/>
+
+    <EditText
+        android:id="@+id/descentryfield"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titleentryfield"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:autofillHints="name"
+        android:background="@drawable/textfieldborder"
+        android:gravity="top"
+        android:hint="@string/entrydesc"
+        android:inputType="text"
+        android:padding="7dp" />
+
+
+
+</RelativeLayout>
